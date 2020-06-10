@@ -5,7 +5,7 @@ using TMPro;
 
 public class Score : MonoBehaviour
 {
-   /* [SerializeField] int currentScore = 0, pointPerBlock = 83;
+    [SerializeField] int currentScore = 0, pointPerBlock = 83;
     [SerializeField] TextMeshProUGUI scoreText;
 
     private void Start()
@@ -19,5 +19,5 @@ public class Score : MonoBehaviour
         currentScore += pointPerBlock;
         scoreText.text = currentScore.ToString();
     }
-   */
+   
 }
