@@ -13,6 +13,10 @@ public class Score : MonoBehaviour
         scoreText.text = currentScore.ToString();
     }
     
+    public void setScoreToZero()
+    {
+        currentScore = 0;
+    }
 
     public void increaseScore()
     {
